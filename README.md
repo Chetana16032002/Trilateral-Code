@@ -24,4 +24,4 @@ You don't get any
 Authors:
 - James Slough (Masterbond7)
 - Max Dowdall (Grapes42)
-- Papez (Papez1)
+- James Papez (Papez1)
