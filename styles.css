@@ -1,37 +1,51 @@
+/*  Things that affect everything */
 * {
+    /* Setting default fonts */
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2.5px; margin: 0; border: 0;
 
-    background-color: rgb(51, 51, 51);
-
+    /* Set default text colour */
     color: lightgray;
 }
 
+
+/* Base site effects */
+html {
+    background-color: rgb(51, 51, 51); /* Setting the background colour */
+}
+
+
+/* Header styling */
 header h1{
     text-align: center;
     font-size: 75px;
     margin-bottom: 25px;
 }
 
-section#people-list {
-    text-align: center;
-}
 
+/* The people list decorations */
+section#people-list {
+    text-align: center; /* Align the list of people to the center of the screen */
+}
 section#people-list h3 {
+    /* Set header size and spacing */
     font-size: 30px;
     margin-bottom: 10px;
 }
-
 section#people-list div{
-    display: inline-block;
+    display: inline-block; /* Displaying the people inline */
+
+    /* Div borders and spacing */
     border: 5px gray solid;
     border-radius: 10px;
+    margin: 0px 5px;
 }
-
 section#people-list div img {
-    padding: 0;
+    /* Image borders (separating from the text) and rounded corners */
+    border-bottom: 5px gray solid;
+    border-radius: 5px 5px 0 0;
 }
-
 section#people-list div h4 {
+    /* Setting the font size for the text and setting the spacing */
     font-size: 20px;
+    margin: 0; padding: 5px;
 }
