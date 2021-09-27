@@ -1,4 +1,5 @@
 # Trilateral Code
+[![CodeFactor](https://www.codefactor.io/repository/github/masterbond7/trilateral-code/badge)](https://www.codefactor.io/repository/github/masterbond7/trilateral-code)
 ### Hire Programmers
 
 ## Table of contents
