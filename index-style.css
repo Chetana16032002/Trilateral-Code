@@ -1,0 +1,67 @@
+/* Handy classes */
+.inline div{
+    display: inline-block;
+}
+
+
+/*  Things that affect everything */
+* {
+    /* Setting default fonts */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Set default text colour */
+    color: lightgray;
+}
+
+
+/* Base site effects */
+html {
+    background-color: rgb(51, 51, 51); /* Setting the background colour */
+}
+
+
+/* Header styling */
+header h1{
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 25px;
+}
+
+
+/* The people list decorations */
+section#dev-list-inline {
+    text-align: center; /* Align the list of people to the center of the screen */
+}
+section#dev-list-inline h3 {
+    /* Set header size and spacing */
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+section#dev-list-inline div{
+    /* Div borders and spacing */
+    border: 5px gray solid;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+section#dev-list-inline div img {
+    /* Image borders (separating from the text) and rounded corners */
+    border-bottom: 5px gray solid;
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+}
+section#dev-list-inline div h4 {
+    /* Setting the font size for the text and setting the spacing */
+    font-size: 20px;
+    margin: 0; padding: 5px;
+}
+/*
+/* The project list decoratioins 
+section#project-list h3 {
+    margin-bottom: 0; /* Header text spacing 
+}
+section#project-list ul {
+    margin-top: 5px; /* Project list spacing 
+}
+section#project-list ul li{
+    padding-bottom: 5px; /* Added spacing between the project entries on the list 
+}*/
