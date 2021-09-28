@@ -1,4 +1,5 @@
 window.addEventListener('resize', sidetable);
+window.addEventListener('load', sidetable);
 
 function sidetable() {
     // Get width and height of browser
