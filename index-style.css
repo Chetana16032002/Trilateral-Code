@@ -29,39 +29,38 @@ header h1{
 
 
 /* The people list decorations */
-section#dev-list-inline {
+section.div-list-inline {
     text-align: center; /* Align the list of people to the center of the screen */
 }
-section#dev-list-inline h3 {
+section.div-list-inline h3 {
     /* Set header size and spacing */
     font-size: 30px;
     margin-bottom: 10px;
 }
-section#dev-list-inline div{
+section.div-list-inline div{
     /* Div borders and spacing */
     border: 5px gray solid;
     border-radius: 10px;
     margin: 0 5px;
 }
-section#dev-list-inline div img {
+section.div-list-inline div img {
     /* Image borders (separating from the text) and rounded corners */
     border-bottom: 5px gray solid;
     border-radius: 5px 5px 0 0;
-    height: 250px;
 }
-section#dev-list-inline div h4 {
+section.div-list-inline div h4 {
     /* Setting the font size for the text and setting the spacing */
     font-size: 20px;
     margin: 0; padding: 5px;
 }
-/*
-/* The project list decoratioins 
-section#project-list h3 {
-    margin-bottom: 0; /* Header text spacing 
+section.div-list-inline a {
+    text-decoration: none; /* Remove the underline for the links (it gets displayed in the wrong place) */
 }
-section#project-list ul {
-    margin-top: 5px; /* Project list spacing 
+
+/* Settings for the two lists */
+section#people-list img{
+    height: 200px;
 }
-section#project-list ul li{
-    padding-bottom: 5px; /* Added spacing between the project entries on the list 
-}*/
+section#project-list img{
+    height: 250px;
+}
