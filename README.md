@@ -22,6 +22,6 @@ You don't get any
 
 ## Authors and acknowledgements
 Authors:
-- James Slough (Masterbond7)
-- Max Dowdall (Grapes42)
-- James Papez (Papez1)
+- Slough (Masterbond7)
+- Max (Grapes42)
+- Papez (Papez1)

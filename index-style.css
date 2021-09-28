@@ -19,12 +19,19 @@ html {
     background-color: rgb(51, 51, 51); /* Setting the background colour */
 }
 
+/* Setting the body so that the footer does not overlap any content */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;/*102vh; /* TODO: find out exactly how this works */
+}
 
 /* Header styling */
 header h1{
     text-align: center;
     font-size: 75px;
     margin-bottom: 25px;
+    margin: 0;
 }
 
 
@@ -63,4 +70,22 @@ section#people-list img{
 }
 section#project-list img{
     height: 250px;
+}
+
+
+/* Configuring the footer */
+footer {
+    /* Placing the footer */
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 100%; 
+    padding: 25px;
+
+    /* Setting the background colour of the footer */
+    background-color: rgb(25, 25, 25);
+}
+
+/* Text in footer */
+footer h4 {
+    margin: 0;
 }
