@@ -58,7 +58,8 @@ section.div-list-inline a {
     text-decoration: none; /* Remove the underline for the links (it gets displayed in the wrong place) */
 }
 
-/* Settings for the people and project lists */
+/* NOTE: REDUNDANT */
+/* Settings for the people and project lists */ 
 section#people-list img{
     height: 200px;
 }
