@@ -19,10 +19,6 @@ html {
     background-color: rgb(51, 51, 51); /* Setting the background colour */
 }
 
-/* Making space fot the list of programming languages on the right */
-article {
-    margin-right: 380px;
-}
 
 /* Header styling */
 header h1{
@@ -111,18 +107,10 @@ section#language-list table tr td:last-child {
     text-align: center;
 }
 
-/* Remove the margin on the header for the table */
-section#language-list h3 {
-    margin-top: 0;
-}
 
-/* Move the table containing the languages we use */
+/* Aligning the language list to the center */
 section#language-list {
-    position: fixed;
-    top: 50%;
-    transform: translate(0, -50%);
-    transform: translate(0, -220px); /* TODO: IMPORTANT every time you change the height of the footer you MAY need to change this */
-    right: 10px;
+    display: flex; justify-content: center;
 }
 
 /* Configuring the pre-footer spacing */

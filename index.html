@@ -2,11 +2,18 @@
 <html>
     <!-- Non-visible website stuff -->
     <head>
+        <!-- Libraries -->
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
         <!-- Fancy decorative things -->
         <title>Trilateral Code</title>
 
-        <!-- Stylesheet -->
-        <link rel="stylesheet" href="index-style.css">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/index-style.css">
+        <link rel="stylesheet" href="/prog-table-side.css" id="prog-table-side">
+
+        <!-- JS INIT CODE -->
+        <script src="/window-size.js"></script>
 
         <!-- Viewport and responsivness stuff -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -100,49 +107,51 @@
 
         <!-- List of programming languages we use -->
         <section id="language-list">
-            <h3>What languages do we use?</h3>
-            <table>
-                <tr>
-                    <th class="top-left">Programming language</th>
-                    <th class="top-right">Skill level</th>
-                </tr>
-                <tr>
-                    <td>Arduino</td>
-                    <td><img src="/Images/Beg-Int-Adv/Int-Adv.png" alt="intermediate-advanced" width="16px" title="Intermediate-Advanced"></td>
-                </tr>
-                <tr>
-                    <td>Bash</td>
-                    <td><img src="/Images/Beg-Int-Adv/Int.png" alt="intermediate" width="16px" title="Intermediate"></td>
-                </tr>
-                <tr>
-                    <td>C++</td>
-                    <td><img src="/Images/Beg-Int-Adv/Int.png" alt="intermediate" width="16px" title="Intermediate"></td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td><img src="/Images/Beg-Int-Adv/Int-Adv.png" alt="intermediate-advanced" width="16px" title="Intermediate-Advanced"></td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td><img src="/Images/Beg-Int-Adv/Advan.png" alt="advanced" width="16px" title="Advanced"></td>
-                </tr>
-                <tr>
-                    <td>Java</td>
-                    <td><img src="/Images/Beg-Int-Adv/Beg-Int.png" alt="basic-intermediate" width="16px" title="Basic-Intermediate"></td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td><img src="/Images/Beg-Int-Adv/Beg.png" alt="basic" width="16px" title="Basic"></td>
-                </tr>
-                <tr>
-                    <td>PHP</td>
-                    <td><img src="/Images/Beg-Int-Adv/Int.png" alt="intermediate" width="16px" title="Intermediate"></td>
-                </tr>
-                <tr>
-                    <td>Python 3</td>
-                    <td><img src="/Images/Beg-Int-Adv/Advan.png" alt="advanced" width="16px" title="Advanced"></td>
-                </tr>
-            </table>
+            <div>
+                <h3>What languages do we use?</h3>
+                <table>
+                    <tr>
+                        <th class="top-left">Programming language</th>
+                        <th class="top-right">Skill level</th>
+                    </tr>
+                    <tr>
+                        <td>Arduino</td>
+                        <td><img src="/Images/Beg-Int-Adv/Int-Adv.png" alt="intermediate-advanced" width="16px" title="Intermediate-Advanced"></td>
+                    </tr>
+                    <tr>
+                        <td>Bash</td>
+                        <td><img src="/Images/Beg-Int-Adv/Int.png" alt="intermediate" width="16px" title="Intermediate"></td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td><img src="/Images/Beg-Int-Adv/Int.png" alt="intermediate" width="16px" title="Intermediate"></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><img src="/Images/Beg-Int-Adv/Int-Adv.png" alt="intermediate-advanced" width="16px" title="Intermediate-Advanced"></td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td><img src="/Images/Beg-Int-Adv/Advan.png" alt="advanced" width="16px" title="Advanced"></td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td><img src="/Images/Beg-Int-Adv/Beg-Int.png" alt="basic-intermediate" width="16px" title="Basic-Intermediate"></td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td><img src="/Images/Beg-Int-Adv/Beg.png" alt="basic" width="16px" title="Basic"></td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td><img src="/Images/Beg-Int-Adv/Int.png" alt="intermediate" width="16px" title="Intermediate"></td>
+                    </tr>
+                    <tr>
+                        <td>Python 3</td>
+                        <td><img src="/Images/Beg-Int-Adv/Advan.png" alt="advanced" width="16px" title="Advanced"></td>
+                    </tr>
+                </table>
+            </div>
         </section>
 
         <!-- Footer with contact information -->
