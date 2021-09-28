@@ -19,12 +19,6 @@ html {
     background-color: rgb(51, 51, 51); /* Setting the background colour */
 }
 
-/* Setting the body so that the footer does not overlap any content */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 0;/*102vh; /* TODO: find out exactly how this works */
-}
 
 /* Header styling */
 header h1{
@@ -64,7 +58,7 @@ section.div-list-inline a {
     text-decoration: none; /* Remove the underline for the links (it gets displayed in the wrong place) */
 }
 
-/* Settings for the two lists */
+/* Settings for the people and project lists */
 section#people-list img{
     height: 200px;
 }
@@ -73,13 +67,18 @@ section#project-list img{
 }
 
 
+/* Configuring the pre-footer spacing */
+.pre-footer-spacing {
+    margin-bottom: 75px; /* TODO: IMPORTANT every time you change the height of the footer, change this to be equal to the height of the footer */
+}
+
 /* Configuring the footer */
 footer {
     /* Placing the footer */
     position: fixed;
     left: 0; bottom: 0;
-    width: 100%; 
-    padding: 25px;
+    width: 100%;
+    padding: 25px; 
 
     /* Setting the background colour of the footer */
     background-color: rgb(25, 25, 25);
