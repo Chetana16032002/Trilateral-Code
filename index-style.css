@@ -41,7 +41,7 @@ section.div-list-inline div{
     /* Div borders and spacing */
     border: 5px gray solid;
     border-radius: 10px;
-    margin: 0 5px;
+    margin: 5px;
 }
 section.div-list-inline div img {
     /* Image borders (separating from the text) and rounded corners */
