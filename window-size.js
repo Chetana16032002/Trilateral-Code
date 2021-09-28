@@ -1,4 +1,5 @@
 window.addEventListener('resize', sidetable);
+window.addEventListener('load', sidetable);
 
 function sidetable() {
     // Get width and height of browser
@@ -8,5 +9,3 @@ function sidetable() {
     if (width < 625) { document.getElementById("prog-table-side").disabled=true; alert("smol");}
     else { document.getElementById("prog-table-side").disabled=false; }
 }
-
-sidetable();
