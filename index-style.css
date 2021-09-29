@@ -1,0 +1,137 @@
+/* Handy classes */
+.inline div{
+    display: inline-block;
+}
+
+
+/*  Things that affect everything */
+* {
+    /* Setting default fonts */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Set default text colour */
+    color: lightgray;
+}
+
+
+/* Base site effects */
+html {
+    background-color: rgb(51, 51, 51); /* Setting the background colour */
+}
+
+
+/* Header styling */
+header h1{
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 25px;
+}
+
+
+/* The people list decorations */
+section.div-list-inline {
+    text-align: center; /* Align the list of people to the center of the screen */
+}
+section.div-list-inline h3 {
+    /* Set header size and spacing */
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+section.div-list-inline div{
+    /* Div borders and spacing */
+    border: 5px grey solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+section.div-list-inline div img {
+    /* Image borders (separating from the text) and rounded corners */
+    border-bottom: 5px grey solid;
+    border-radius: 5px 5px 0 0;
+}
+section.div-list-inline div h4 {
+    /* Setting the font size for the text and setting the spacing */
+    font-size: 20px;
+    margin: 0; padding: 5px;
+}
+section.div-list-inline a {
+    text-decoration: none; /* Remove the underline for the links (it gets displayed in the wrong place) */
+}
+
+/* NOTE: REDUNDANT */
+/* Settings for the people and project lists */ 
+section#people-list img{
+    height: 200px;
+}
+section#project-list img{
+    height: 250px;
+}
+
+/* Rounded table corners */
+section#language-list table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+section#language-list table tr th,
+section#language-list table tr td {
+    border-right: 3px solid grey;
+    border-bottom: 3px solid grey;
+    padding: 5px;
+}
+section#language-list table tr th:first-child,
+section#language-list table tr td:first-child {
+    border-left: 3px solid grey;
+}
+section#language-list table tr th {
+    background: rgb(82, 82, 82);
+    border-top: 3px solid grey;
+    text-align: left;
+}
+/* top-left border-radius */
+section#language-list table tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+/* top-right border-radius */
+section#language-list table tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+/* bottom-left border-radius */
+section#language-list table tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+/* bottom-right border-radius */
+section#language-list table tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+/* Align the last element of the table (the skill level section) */
+section#language-list table tr td:last-child {
+    text-align: center;
+}
+
+
+/* Aligning the language list to the center */
+section#language-list {
+    display: flex; justify-content: center;
+}
+
+/* Configuring the pre-footer spacing */
+.pre-footer-spacing {
+    margin-bottom: 75px; /* TODO: IMPORTANT every time you change the height of the footer, change this to be equal to the height of the footer */
+}
+
+/* Configuring the footer */
+footer {
+    /* Placing the footer */
+    position: fixed;
+    left: 0; bottom: 0;
+    width: 100%;
+    padding: 25px; 
+
+    /* Setting the background colour of the footer */
+    background-color: rgb(25, 25, 25);
+}
+
+/* Text in footer */
+footer h4 {
+    margin: 0;
+}
+/*comment*/

@@ -1,0 +1,19 @@
+/* Making space fot the list of programming languages on the right */
+article {
+    margin-right: 380px;
+}
+
+/* Remove the margin on the header for the table */
+section#language-list h3 {
+    margin-top: 0;
+}
+
+/* Move the table containing the languages we use */
+section#language-list {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    transform: translate(0, -220px); /* TODO: IMPORTANT every time you change the height of the footer you MAY need to change this */
+    right: 10px;
+}
+/*comment*/
