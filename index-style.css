@@ -27,10 +27,6 @@ header h1{
     margin-bottom: 25px;
 }
 
-/* Making space fot the list of programming languages on the right */
-article {
-    margin-right: 380px;
-}
 
 /* The people list decorations */
 section.div-list-inline {
