@@ -9,3 +9,4 @@ function sidetable() {
     if (width < 625) { document.getElementById("prog-table-side").disabled=true; alert("smol");}
     else { document.getElementById("prog-table-side").disabled=false; }
 }
+//comment
