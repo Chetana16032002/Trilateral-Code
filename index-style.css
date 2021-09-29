@@ -114,7 +114,7 @@ section#language-list table#key tr td:first-child {
 
 /* Setting table font sizes */
 section#language-list table td {
-    font-size: 15px;
+    line-height: 1;
 }
 
 /* Aligning the language list to the center */
