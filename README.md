@@ -10,7 +10,7 @@
 
 ## Description
 
-3 young high school boys willing to do what ever you want.
+3 young high school boys willing to make all sorts of code and programs. 
 
 ## Disclaimer
 
