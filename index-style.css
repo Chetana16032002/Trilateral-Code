@@ -24,6 +24,7 @@ html {
 header h1{
     text-align: center;
     font-size: 75px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 
@@ -102,8 +103,12 @@ section#language-list table tr:last-child td:first-child {
 section#language-list table tr:last-child td:last-child {
     border-bottom-right-radius: 6px;
 }
-/* Align the last element of the table (the skill level section) */
-section#language-list table tr td:last-child {
+/* Align the last element of the language table (the skill level section) */
+section#language-list table#lang tr td:last-child {
+    text-align: center;
+}
+/* Align the first element of the key table (the key section) */
+section#language-list table#key tr td:first-child {
     text-align: center;
 }
 
@@ -134,3 +139,4 @@ footer {
 footer h4 {
     margin: 0;
 }
+/*comment*/
