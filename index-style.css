@@ -112,6 +112,10 @@ section#language-list table#key tr td:first-child {
     text-align: center;
 }
 
+/* Setting table font sizes */
+section#language-list table td {
+    font-size: 15px;
+}
 
 /* Aligning the language list to the center */
 section#language-list {
@@ -129,7 +133,7 @@ footer {
     position: fixed;
     left: 0; bottom: 0;
     width: 100%;
-    padding: 12px; 
+    padding: 15px; 
 
     /* Setting the background colour of the footer */
     background-color: rgb(25, 25, 25);
